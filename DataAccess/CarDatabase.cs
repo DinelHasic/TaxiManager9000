@@ -7,14 +7,7 @@ namespace TaxiManager9000.DataAccess
     {
         public CarDatabase()
         {
-           /* if (Items == null)
-            {
-                Seed();
-                UpdateAsync();
-            }
-*/
-        /*    Seed();
-            UpdateAsync();*/
+       
         }
         public List<Car> GetCarsData()
         {
@@ -22,7 +15,7 @@ namespace TaxiManager9000.DataAccess
         }
 
         // DB
-        private void Seed()
+      /*  private void Seed()
         {
             Items.Add(AutoIncrementId(new Car("Golf", "MK-3344-SK", new DateTime(2022, 7, 2))));
             Items.Add(AutoIncrementId(new Car("A3", "MK-1314-SK", new DateTime(2022, 1, 29))));
@@ -32,6 +25,7 @@ namespace TaxiManager9000.DataAccess
             Items.Add(AutoIncrementId(new Car("A3", "MK-1177-SK", new DateTime(2023, 3, 20))));
             Items.Add(AutoIncrementId(new Car("A6", "MK-5556-SK", new DateTime(2022, 5, 30))));
         }
+        */
     }
 }
 
