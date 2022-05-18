@@ -18,13 +18,14 @@ namespace TaxiManager9000.DataAccess
         }
 
         // DB
-        private void Seed()
+      /*private void Seed()
         {
             Items.Add(AutoIncrementId(new User("test1", "test11", Domain.Enums.Role.Administrator)));
             Items.Add(AutoIncrementId(new User("test2", "test22", Domain.Enums.Role.Manager)));
             Items.Add(AutoIncrementId(new User("test3", "test33", Domain.Enums.Role.Maintainance)));
             Items.Add(AutoIncrementId(new User("test4", "test44", Domain.Enums.Role.Administrator)));
         }
+        */
 
         public List<string> GetUserNames()
         {
