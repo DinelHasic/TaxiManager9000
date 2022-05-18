@@ -12,7 +12,7 @@ namespace TaxiManager9000.DataAccess
         }
 
         // DB
-        private void Seed()
+      /*  private void Seed()
         {
             Items.Add(AutoIncrementId(new Driver("Driver1", "Driver11", "111-2222-3333-444", new DateTime(2022, 9, 1))));
             Items.Add(AutoIncrementId(new Driver("Driver2", "Driver22", "999-666-777-888", new DateTime(2024, 1, 1))));
@@ -22,6 +22,7 @@ namespace TaxiManager9000.DataAccess
             Items.Add(AutoIncrementId(new Driver("Driver6", "Driver66", "133-113-411-515", new DateTime(2022, 7, 4))));
             Items.Add(AutoIncrementId(new Driver("Driver7", "Driver77", "132-221-434-858", new DateTime(2022, 4, 1))));
         }
+        */
 
         public List<Driver> GetDriversData()
         {
